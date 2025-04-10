@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jessie | Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f9fafb;
+      color: #111827;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.125rem;
+      color: #4b5563;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .project-card {
+      background-color: white;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    }
+    .project-card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .project-card p {
+      color: #374151;
+    }
+    .project-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      color: #6b7280;
+    }
+    footer a {
+      color: #2563eb;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Jessie</h1>
+    <p>Full-Stack Developer | Data Visualization | React • .NET • D3.js</p>
+  </header>
+
+  <section class="projects">
+    <div class="project-card">
+      <h2>🖼️ Canvas of Numbers</h2>
+      <p>An interactive data visualization app that helps users explore global gender gap data through maps and charts. Inspired by Van Gogh's bold spirit, it turns data into stories — encouraging users to question, analyze, and understand the world through evidence.</p>
+      <a href="https://jessie-2023.github.io/canvas-of-numbers/" target="_blank">Visit App →</a>
+    </div>
+
+    <div class="project-card">
+      <h2>🩺 Blood Pressure Monitoring App</h2>
+      <p>A real-world HealthTech project (sponsored by NHS) built with Go and React. It supports patients in tracking symptoms and blood pressure trends while improving care efficiency for doctors via visualized health history.</p>
+      <p><em>Private project – not yet publicly available.</em></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Connect with me:</p>
+    <a href="https://github.com/jessie-2023" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/YOUR_LINK_HERE" target="_blank">LinkedIn</a>
+    <a href="mailto:your.email@example.com">Email</a>
+  </footer>
+</body>
+</html>
