@@ -1,0 +1,29 @@
+body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 0;
+    padding: 2rem;
+    color: #1a1a1a;
+    background-color: #fdfdfd;
+  }
+  
+  h1, h2, h3 {
+    line-height: 1.3;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+  }
+  
+  a {
+    color: #0a66c2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    margin-bottom: 2.5rem;
+  }
+  
